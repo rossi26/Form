@@ -61,7 +61,7 @@ class Form extends React.Component {
        doc.text(prezzo,80.3,173.7)
        doc.text(note,19,184.5)
             
-        doc.save('test.pdf')
+        doc.save('Conferma_prenotazione.pdf');
     }
      
     
