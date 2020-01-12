@@ -106,7 +106,7 @@ class Form extends React.Component {
             </div>  
             <div className="form-group">
                 <label htmlFor="Note">Note</label>
-                <textarea className="form-control" ref={this.note}  rows="3" maxLength="70"></textarea>
+                <textarea className="form-control" ref={this.note}  rows="3" maxLength="80"></textarea>
             </div>   
             
             <button type="submit" className="btn btn-primary" >Submit</button>
