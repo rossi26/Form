@@ -102,7 +102,7 @@ class Form extends React.Component {
             </div>
             <div className="form-group">
                 <label htmlFor="prezzo">Prezzo</label>
-                <input type="number" className="form-control" ref={this.prezzo}  placeholder="Prezzo"/>
+                <input type="number" className="form-control" ref={this.prezzo}  placeholder="Prezzo" step="0.01"/>
             </div>  
             <div className="form-group">
                 <label htmlFor="Note">Note</label>
